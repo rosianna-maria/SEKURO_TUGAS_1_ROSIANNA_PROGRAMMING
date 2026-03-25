@@ -1,7 +1,7 @@
 #pragma once
 #include "bits/stdc++.h"
+using namespace std;
 
-/*[TODO]: Implementasikanlah class berikut didalam file mobil.cpp agar main.cpp dapat dijalankan */
 class mobil {
 protected: 
     int kapasitas_mesin;
@@ -28,4 +28,3 @@ public:
     void cek_spesifikasi() override;
     void aktifkan_turbo();
 };
-
